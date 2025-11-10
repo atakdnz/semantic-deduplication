@@ -436,9 +436,9 @@ Recommended models for Turkish:
                 output_path=args.output,
                 output_format=args.format
             )
-    except Exception as e:
-        print(f"Error: {e}")
-        sys.exit(1)
+        except Exception as e:
+            print(f"Error: {e}")
+            sys.exit(1)
 
 
 if __name__ == '__main__':

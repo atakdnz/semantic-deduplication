@@ -1,0 +1,603 @@
+
+[
+  {
+    "id": 1,
+    "text": "Bu harika bir ürün, kesinlikle tavsiye ederim.",
+    "category": "review",
+    "length": "short"
+  },
+  {
+    "id": 2,
+    "text": "Bu harika bir ürün, kesinlikle tavsiye ederim.",
+    "category": "review",
+    "length": "short"
+  },
+  {
+    "id": 3,
+    "text": "En son haberlere göre, ekonomi büyümeye devam ediyor.",
+    "category": "news",
+    "length": "short"
+  },
+  {
+    "id": 4,
+    "text": "En son haberlere göre, ekonomi büyümeye devam ediyor.",
+    "category": "news",
+    "length": "short"
+  },
+  {
+    "id": 5,
+    "text": "Yüksek kaliteli pamuktan üretilmiş rahat bir tişört.",
+    "category": "product_description",
+    "length": "short"
+  },
+  {
+    "id": 6,
+    "text": "Yüksek kaliteli pamuktan üretilmiş rahat bir tişört.",
+    "category": "product_description",
+    "length": "short"
+  },
+  {
+    "id": 7,
+    "text": "Bu yemeği nasıl yapabilirim?",
+    "category": "qa",
+    "length": "short"
+  },
+  {
+    "id": 8,
+    "text": "Bu yemeği nasıl yapabilirim?",
+    "category": "qa",
+    "length": "short"
+  },
+  {
+    "id": 9,
+    "text": "Hafta sonu için harika bir gezi planı!",
+    "category": "social_media",
+    "length": "short"
+  },
+  {
+    "id": 10,
+    "text": "Hafta sonu için harika bir gezi planı!",
+    "category": "social_media",
+    "length": "short"
+  },
+  {
+    "id": 11,
+    "text": "Bu akıllı telefonun kamerası gerçekten çok etkileyici ve kullanımı da oldukça kolay.",
+    "category": "product_description",
+    "length": "medium"
+  },
+  {
+    "id": 12,
+    "text": "bu akıllı telefonun kamerası gerçekten çok etkileyici ve kullanımı da oldukça kolay!",
+    "category": "product_description",
+    "length": "medium"
+  },
+  {
+    "id": 13,
+    "text": "Gerçekten kamerası bu akıllı telefonun çok etkileyici ve kullanımı da oldukça kolay.",
+    "category": "product_description",
+    "length": "medium"
+  },
+  {
+    "id": 14,
+    "text": "Yeni çıkan filmi sinemada izledim ve beklentilerimi aştı.",
+    "category": "review",
+    "length": "short"
+  },
+  {
+    "id": 15,
+    "text": "yeni çıkan filmi sinemada izledim ve beklentilerimi aştı.",
+    "category": "review",
+    "length": "short"
+  },
+  {
+    "id": 16,
+    "text": "Sinemada izlediğim yeni çıkan film beklentilerimin üzerindeydi.",
+    "category": "review",
+    "length": "short"
+  },
+  {
+    "id": 17,
+    "text": "Türkiye'nin güney sahillerinde tatil yapmak için en iyi zaman yaz aylarıdır.",
+    "category": "qa",
+    "length": "medium"
+  },
+  {
+    "id": 18,
+    "text": "türkiyenin güney sahillerinde tatil yapmak için en iyi zaman yaz aylarıdır.",
+    "category": "qa",
+    "length": "medium"
+  },
+  {
+    "id": 19,
+    "text": "Yaz aylarında tatil yapmak için en iyi yer Türkiye'nin güney sahilleridir.",
+    "category": "qa",
+    "length": "medium"
+  },
+  {
+    "id": 20,
+    "text": "Dün akşamki maçta favori takımım son saniyede attığı golle galip geldi.",
+    "category": "social_media",
+    "length": "medium"
+  },
+  {
+    "id": 21,
+    "text": "dün akşamki maçta favori takımım son saniyede attığı golle galip geldi!",
+    "category": "social_media",
+    "length": "medium"
+  },
+  {
+    "id": 22,
+    "text": "Favori takımım dün akşamki maçı son saniye golüyle kazandı.",
+    "category": "social_media",
+    "length": "medium"
+  },
+  {
+    "id": 23,
+    "text": "Şirket, yılın ikinci çeyreğinde rekor kar açıkladı.",
+    "category": "news",
+    "length": "short"
+  },
+  {
+    "id": 24,
+    "text": "şirket, yılın ikinci çeyreğinde rekor kar açıkladı.",
+    "category": "news",
+    "length": "short"
+  },
+  {
+    "id": 25,
+    "text": "Yılın ikinci çeyreğinde şirket rekor seviyede kar ettiğini duyurdu.",
+    "category": "news",
+    "length": "short"
+  },
+  {
+    "id": 26,
+    "text": "Bu kitap, okuyucuyu ilk sayfadan itibaren saran sürükleyici bir hikayeye sahip.",
+    "category": "review",
+    "length": "medium"
+  },
+  {
+    "id": 27,
+    "text": "bu kitap, okuyucuyu ilk sayfadan itibaren saran sürükleyici bir hikayeye sahip.",
+    "category": "review",
+    "length": "medium"
+  },
+  {
+    "id": 28,
+    "text": "Sürükleyici bir hikayesi olan bu kitap okuyucuyu ilk sayfasından itibaren sarıyor.",
+    "category": "review",
+    "length": "medium"
+  },
+  {
+    "id": 29,
+    "text": "Organik ve taze malzemelerle hazırlanan bu salata, sağlıklı bir öğün seçeneği sunuyor.",
+    "category": "product_description",
+    "length": "medium"
+  },
+  {
+    "id": 30,
+    "text": "organik ve taze malzemelerle hazırlanan bu salata, sağlıklı bir öğün seçeneği sunuyor.",
+    "category": "product_description",
+    "length": "medium"
+  },
+  {
+    "id": 31,
+    "text": "Sağlıklı bir öğün alternatifi olan bu salata, taze ve organik malzemelerle yapılmıştır.",
+    "category": "product_description",
+    "length": "medium"
+  },
+  {
+    "id": 32,
+    "text": "Sosyal medyada paylaşılan bu video kısa sürede viral oldu.",
+    "category": "social_media",
+    "length": "short"
+  },
+  {
+    "id": 33,
+    "text": "sosyal medyada paylaşılan bu video kısa sürede viral oldu!",
+    "category": "social_media",
+    "length": "short"
+  },
+  {
+    "id": 34,
+    "text": "Bu video sosyal medyada paylaşıldıktan sonra hızla yayıldı.",
+    "category": "social_media",
+    "length": "short"
+  },
+  {
+    "id": 35,
+    "text": "İklim değişikliğiyle mücadele için küresel işbirliği şart.",
+    "category": "news",
+    "length": "short"
+  },
+  {
+    "id": 36,
+    "text": "iklim değişikliğiyle mücadele için küresel işbirliği şart.",
+    "category": "news",
+    "length": "short"
+  },
+  {
+    "id": 37,
+    "text": "Küresel işbirliği, iklim değişikliği ile mücadelede zorunludur.",
+    "category": "news",
+    "length": "short"
+  },
+  {
+    "id": 38,
+    "text": "Bu bilgisayar oyunu, grafikleri ve oynanışıyla oyunculardan tam not aldı.",
+    "category": "review",
+    "length": "medium"
+  },
+  {
+    "id": 39,
+    "text": "bu bilgisayar oyunu, grafikleri ve oynanışıyla oyunculardan tam not aldı.",
+    "category": "review",
+    "length": "medium"
+  },
+  {
+    "id": 40,
+    "text": "Oyuncular, bu bilgisayar oyununun grafiklerine ve oynanışına tam not verdi.",
+    "category": "review",
+    "length": "medium"
+  },
+  {
+    "id": 41,
+    "text": "Bu otel, şehir merkezine yakın konumu ve sunduğu olanaklarla konforlu bir konaklama deneyimi vadediyor.",
+    "category": "review",
+    "length": "medium"
+  },
+  {
+    "id": 42,
+    "text": "Şehir merkezindeki bu otel, konforlu bir konaklama için harika imkanlar sunuyor ve konumu çok merkezi.",
+    "category": "review",
+    "length": "medium"
+  },
+  {
+    "id": 43,
+    "text": "Merkezi konumu ve sunduğu olanaklarla bu otel, konforlu bir konaklama vadediyor.",
+    "category": "review",
+    "length": "medium"
+  },
+  {
+    "id": 44,
+    "text": "Yeni yasa tasarısı, mecliste yapılan oylama sonucunda kabul edildi.",
+    "category": "news",
+    "length": "medium"
+  },
+  {
+    "id": 45,
+    "text": "Meclis, yaptığı oylama ile yeni kanun teklifini onayladı.",
+    "category": "news",
+    "length": "medium"
+  },
+  {
+    "id": 46,
+    "text": "Yeni yasa, meclisteki oylamayla geçti.",
+    "category": "news",
+    "length": "short"
+  },
+  {
+    "id": 47,
+    "text": "Bu koşu ayakkabısı, hafifliği ve esnek yapısıyla uzun mesafelerde bile rahatlık sağlar.",
+    "category": "product_description",
+    "length": "medium"
+  },
+  {
+    "id": 48,
+    "text": "Hafif ve esnek olan bu spor ayakkabı, uzun koşularda dahi konfor sunmak için tasarlandı.",
+    "category": "product_description",
+    "length": "medium"
+  },
+  {
+    "id": 49,
+    "text": "Uzun mesafe koşucuları için tasarlanan bu ayakkabı, hafifliği ve esnekliğiyle rahat bir deneyim sunar.",
+    "category": "product_description",
+    "length": "medium"
+  },
+  {
+    "id": 50,
+    "text": "Arkadaşlarımla harika bir akşam yemeği yedik, yemekler ve atmosfer muhteşemdi.",
+    "category": "social_media",
+    "length": "medium"
+  },
+  {
+    "id": 51,
+    "text": "Dostlarımla muhteşem bir akşam geçirdim; hem ortam hem de lezzetler harikaydı.",
+    "category": "social_media",
+    "length": "medium"
+  },
+  {
+    "id": 52,
+    "text": "Harika bir atmosferde lezzetli yemekler yiyerek arkadaşlarımla keyifli bir akşam geçirdim.",
+    "category": "social_media",
+    "length": "medium"
+  },
+  {
+    "id": 53,
+    "text": "İstanbul'dan Ankara'ya en hızlı nasıl gidilir?",
+    "category": "qa",
+    "length": "short"
+  },
+  {
+    "id": 54,
+    "text": "İstanbul'dan Ankara'ya ulaşmanın en çabuk yolu nedir?",
+    "category": "qa",
+    "length": "short"
+  },
+  {
+    "id": 55,
+    "text": "Ankara'ya İstanbul'dan en pratik ulaşım yöntemi hangisidir?",
+    "category": "qa",
+    "length": "short"
+  },
+  {
+    "id": 56,
+    "text": "Bu roman, insan psikolojisinin derinliklerine inen karmaşık bir karakter analizi sunuyor.",
+    "category": "review",
+    "length": "long"
+  },
+  {
+    "id": 57,
+    "text": "Bu kitap, karakterlerin psikolojisini derinlemesine inceleyerek karmaşık bir analiz ortaya koyuyor.",
+    "category": "review",
+    "length": "long"
+  },
+  {
+    "id": 58,
+    "text": "Roman, karakterlerin iç dünyasını detaylı bir şekilde ele alarak derin bir psikolojik analiz yapıyor.",
+    "category": "review",
+    "length": "long"
+  },
+  {
+    "id": 59,
+    "text": "Teknoloji devi, en yeni amiral gemisi telefon modelini önümüzdeki ay tanıtacak.",
+    "category": "news",
+    "length": "medium"
+  },
+  {
+    "id": 60,
+    "text": "Büyük teknoloji firması, gelecek ay en üst düzey telefonunu piyasaya sürecek.",
+    "category": "news",
+    "length": "medium"
+  },
+  {
+    "id": 61,
+    "text": "Teknoloji şirketi, bir sonraki ay yeni nesil amiral gemisi telefonunu tanıtmayı planlıyor.",
+    "category": "news",
+    "length": "medium"
+  },
+  {
+    "id": 62,
+    "text": "Ev yapımı limonata tarifi arıyorum, ferahlatıcı ve kolay bir tarif olması önemli.",
+    "category": "qa",
+    "length": "medium"
+  },
+  {
+    "id": 63,
+    "text": "Kolay ve serinletici bir ev yapımı limonata nasıl yapılır diye merak ediyorum.",
+    "category": "qa",
+    "length": "medium"
+  },
+  {
+    "id": 64,
+    "text": "Pratik ve ferahlatıcı bir ev yapımı limonata için tarif önerisi olan var mı?",
+    "category": "qa",
+    "length": "medium"
+  },
+  {
+    "id": 65,
+    "text": "Paslanmaz çelik malzemeden üretilen bu mutfak robotu, güçlü motoruyla en zorlu işlerin bile üstesinden gelir.",
+    "category": "product_description",
+    "length": "long"
+  },
+  {
+    "id": 66,
+    "text": "Güçlü motoru ve paslanmaz çelik yapısı sayesinde bu mutfak aleti, en zor görevleri bile kolayca yerine getirir.",
+    "category": "product_description",
+    "length": "long"
+  },
+  {
+    "id": 67,
+    "text": "Bu mutfak robotunun paslanmaz çelik gövdesi ve güçlü motoru, mutfaktaki en zorlu görevleri basitleştirir.",
+    "category": "product_description",
+    "length": "long"
+  },
+  {
+    "id": 68,
+    "text": "Bugün kendimi çok enerjik ve motive hissediyorum, yeni projelere başlamak için sabırsızlanıyorum!",
+    "category": "social_media",
+    "length": "medium"
+  },
+  {
+    "id": 69,
+    "text": "Bugün içim içime sığmıyor, yeni işlere başlamak için büyük bir heyecan duyuyorum ve çok enerjiyim!",
+    "category": "social_media",
+    "length": "medium"
+  },
+  {
+    "id": 70,
+    "text": "Bugün enerjim tavan yaptı ve yeni başlangıçlar için inanılmaz motiveyim!",
+    "category": "social_media",
+    "length": "medium"
+  },
+  {
+    "id": 71,
+    "text": "Kuantum bilgisayarların gelecekte şifreleme teknolojileri üzerindeki potansiyel etkileri araştırılıyor.",
+    "category": "news",
+    "length": "medium"
+  },
+  {
+    "id": 72,
+    "text": "Sürdürülebilir tarım yöntemleri, gıda güvenliğini sağlarken ekosistemi korumayı hedefler.",
+    "category": "qa",
+    "length": "medium"
+  },
+  {
+    "id": 73,
+    "text": "El yapımı seramik vazo, modern ve minimalist tasarımıyla evinize şıklık katacak.",
+    "category": "product_description",
+    "length": "short"
+  },
+  {
+    "id": 74,
+    "text": "Tarihi yarımadada bir gün geçirmek, binlerce yıllık medeniyetlerin izini sürmek gibiydi.",
+    "category": "social_media",
+    "length": "medium"
+  },
+  {
+    "id": 75,
+    "text": "Restoranın menüsündeki deniz mahsullü makarna kesinlikle denemeye değerdi, çok taze ve lezzetliydi.",
+    "category": "review",
+    "length": "medium"
+  },
+  {
+    "id": 76,
+    "text": "Uzay teleskopu, evrenin en uzak köşelerinden yeni ve şaşırtıcı görüntüler gönderdi.",
+    "category": "news",
+    "length": "medium"
+  },
+  {
+    "id": 77,
+    "text": "Bir sonraki seyahatim için Güney Amerika'yı düşünüyorum, özellikle Peru ve Bolivya'yı merak ediyorum.",
+    "category": "social_media",
+    "length": "medium"
+  },
+  {
+    "id": 78,
+    "text": "Geri dönüştürülmüş malzemelerden üretilen bu sırt çantası, hem çevre dostu hem de oldukça dayanıklı.",
+    "category": "product_description",
+    "length": "medium"
+  },
+  {
+    "id": 79,
+    "text": "Yapay zeka destekli yeni bir uygulama, kişisel finans yönetimini kolaylaştırmayı amaçlıyor.",
+    "category": "news",
+    "length": "medium"
+  },
+  {
+    "id": 80,
+    "text": "Müşteri hizmetleri ekibi sorunu hızlı ve profesyonel bir şekilde çözdü, hizmetten çok memnun kaldım.",
+    "category": "review",
+    "length": "medium"
+  },
+  {
+    "id": 81,
+    "text": "Farklı kahve demleme yöntemleri arasındaki lezzet farkları nelerdir?",
+    "category": "qa",
+    "length": "short"
+  },
+  {
+    "id": 82,
+    "text": "Bu belgesel, Amazon ormanlarındaki biyoçeşitliliği ve karşı karşıya olduğu tehditleri gözler önüne seriyor.",
+    "category": "review",
+    "length": "long"
+  },
+  {
+    "id": 83,
+    "text": "Şirket, çalışanlarının ruh sağlığını desteklemek için yeni bir program başlattı.",
+    "category": "news",
+    "length": "short"
+  },
+  {
+    "id": 84,
+    "text": "Güneş panelleri kurarak evimin enerji ihtiyacının büyük bir kısmını kendim karşılıyorum.",
+    "category": "social_media",
+    "length": "medium"
+  },
+  {
+    "id": 85,
+    "text": "Su geçirmez ve nefes alabilen kumaştan yapılmış bu ceket, doğa yürüyüşleri için ideal.",
+    "category": "product_description",
+    "length": "medium"
+  },
+  {
+    "id": 86,
+    "text": "Kitap kulübümüzün bu ayki seçkisi, 20. yüzyılın başlarında geçen tarihi bir kurgu romanı.",
+    "category": "social_media",
+    "length": "medium"
+  },
+  {
+    "id": 87,
+    "text": "Mobil bankacılık uygulamasının arayüzü yenilendi, artık daha kullanıcı dostu.",
+    "category": "review",
+    "length": "short"
+  },
+  {
+    "id": 88,
+    "text": "Yeni başlayanlar için en iyi yatırım stratejisi ne olmalıdır?",
+    "category": "qa",
+    "length": "short"
+  },
+  {
+    "id": 89,
+    "text": "Arkeologlar, antik kentte yaptıkları kazılarda önemli tarihi eserler buldular.",
+    "category": "news",
+    "length": "medium"
+  },
+  {
+    "id": 90,
+    "text": "Bu bilim kurgu filmi, görsel efektleriyle izleyiciyi büyülerken felsefi sorular da sorduruyor.",
+    "category": "review",
+    "length": "long"
+  },
+  {
+    "id": 91,
+    "text": "Vegan bir akşam yemeği için yaratıcı ve lezzetli tarifler paylaşabilir misiniz?",
+    "category": "qa",
+    "length": "medium"
+  },
+  {
+    "id": 92,
+    "text": "Ahşap ve metalin birleşiminden oluşan bu kitaplık, endüstriyel bir tarza sahip.",
+    "category": "product_description",
+    "length": "short"
+  },
+  {
+    "id": 93,
+    "text": "Maratonu başarıyla tamamlamak, aylarca süren sıkı çalışmanın bir sonucuydu.",
+    "category": "social_media",
+    "length": "short"
+  },
+  {
+    "id": 94,
+    "text": "Sanat galerisindeki yeni sergi, genç ve yetenekli sanatçıların eserlerine odaklanıyor.",
+    "category": "news",
+    "length": "medium"
+  },
+  {
+    "id": 95,
+    "text": "Online sipariş ettiğim ürün beklediğimden daha hızlı ve sorunsuz bir şekilde elime ulaştı.",
+    "category": "review",
+    "length": "medium"
+  },
+  {
+    "id": 96,
+    "text": "Evde bitki yetiştirmeye yeni başladım, bakımı kolay olan hangi bitkileri önerirsiniz?",
+    "category": "qa",
+    "length": "medium"
+  },
+  {
+    "id": 97,
+    "text": "Gönüllü olarak katıldığım sosyal sorumluluk projesi bana çok şey kattı.",
+    "category": "social_media",
+    "length": "short"
+  },
+  {
+    "id": 98,
+    "text": "Gürültü engelleyici kulaklık, özellikle açık ofis ortamında çalışanlar için hayat kurtarıcı olabilir.",
+    "category": "product_description",
+    "length": "medium"
+  },
+  {
+    "id": 99,
+    "text": "Yerel tohumların korunması ve yaygınlaştırılması için bir festival düzenlendi.",
+    "category": "news",
+    "length": "medium"
+  },
+  {
+    "id": 100,
+    "text": "Kargo şirketinin takibindeki gecikme ve bilgilendirme eksikliği hayal kırıklığı yarattı.",
+    "category": "review",
+    "length": "medium"
+  }
+]

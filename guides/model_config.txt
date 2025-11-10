@@ -1,0 +1,20 @@
+MODEL CONFIGURATION NOTES
+=========================
+
+CURRENT MODEL (for limited network):
+- paraphrase-multilingual-mpnet-base-v2 (~420MB)
+- Good balance for Turkish text
+- Default in the script
+
+PLANNED MODEL (when better network available):
+- intfloat/multilingual-e5-large (~2.5GB)
+- Higher quality embeddings
+- Better Turkish support
+- Still fits in 6GB VRAM
+
+TO SWITCH MODELS:
+Run with: python semantic_dedup.py input.json -o output.json -m intfloat/multilingual-e5-large
+
+Or change default in semantic_dedup.py line 23:
+From: model_name: str = 'paraphrase-multilingual-mpnet-base-v2'
+To:   model_name: str = 'intfloat/multilingual-e5-large'

@@ -218,9 +218,9 @@ class SemanticDeduplicator:
         os.makedirs(os.path.dirname(output_path) if os.path.dirname(output_path) else '.', exist_ok=True)
 
         if file_format == 'json':
-            df.to_json(output_path, orient='records', indent=2)
+            df.to_json(output_path, orient='records', indent=2, force_ascii=False)
         elif file_format == 'jsonl':
-            df.to_json(output_path, orient='records', lines=True)
+            df.to_json(output_path, orient='records', lines=True, force_ascii=False)
         elif file_format == 'csv':
             df.to_csv(output_path, index=False)
         elif file_format == 'tsv':

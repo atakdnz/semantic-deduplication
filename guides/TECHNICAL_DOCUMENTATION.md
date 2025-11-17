@@ -20,8 +20,8 @@
 
 **Output:**
 ```
-Loading embedding model: paraphrase-multilingual-mpnet-base-v2...
-First run will download the model (~420MB for mpnet, ~80MB for MiniLM)
+Loading embedding model: intfloat/multilingual-e5-base...
+First run will download the model (~1GB for e5-base, ~420MB for mpnet)
 Model will be cached for future use...
 Model loaded successfully! Embedding dimension: 768
 ```
@@ -414,8 +414,8 @@ Our code uses `IndexFlatIP` (Flat Inner Product):
 |-------|------------|--------|------------|------|-----------|-------|---------|
 | **all-MiniLM-L6-v2** | 22M | 6 | 384 | ~80MB | English | Fastest | Good |
 | **paraphrase-multilingual-MiniLM-L12-v2** | 118M | 12 | 384 | ~420MB | 50+ | Fast | Good |
-| **paraphrase-multilingual-mpnet-base-v2** ⭐ | 278M | 12 | 768 | ~420MB | 50+ | Medium | Very Good |
-| **intfloat/multilingual-e5-base** | 278M | 12 | 768 | ~1GB | 100 | Medium | Excellent |
+| **paraphrase-multilingual-mpnet-base-v2** | 278M | 12 | 768 | ~420MB | 50+ | Medium | Very Good |
+| **intfloat/multilingual-e5-base** ⭐ | 278M | 12 | 768 | ~1GB | 100 | Medium | Excellent |
 | **intfloat/multilingual-e5-large** | 560M | 24 | 1024 | ~2.5GB | 100 | Slow | Best |
 
 ⭐ = Current default model
@@ -466,8 +466,8 @@ All models fit comfortably in your 6GB GPU!
 | Your Priority | Recommended Model | Speed | Quality |
 |---------------|-------------------|-------|---------|
 | **Speed is critical** | paraphrase-multilingual-MiniLM-L12-v2 | Fast | Good |
-| **Balance (current)** | paraphrase-multilingual-mpnet-base-v2 | Medium | Very Good |
-| **Best Turkish support** | intfloat/multilingual-e5-base | Medium | Excellent |
+| **Lighter alternative** | paraphrase-multilingual-mpnet-base-v2 | Medium | Very Good |
+| **Best balance (current)** | intfloat/multilingual-e5-base | Medium | Excellent |
 | **Maximum quality** | intfloat/multilingual-e5-large | Slow | Best |
 
 ### **When to Switch to E5-Large:**
@@ -542,7 +542,7 @@ python semantic_dedup.py data.json -o output.json -m intfloat/multilingual-e5-ba
 | 100,000 | ~150 min | ~60 min | ~210 min |
 | 1,000,000 | ~25 hours | ~12 hours | ~37 hours |
 
-**Note:** Times assume NVIDIA 6GB GPU with paraphrase-multilingual-mpnet-base-v2 model
+**Note:** Times assume NVIDIA 6GB GPU with intfloat/multilingual-e5-base model
 
 ---
 
@@ -654,17 +654,17 @@ Linux/Mac: ~/.cache/huggingface/hub/
 
 ### **Specific model:**
 ```
-models--sentence-transformers--paraphrase-multilingual-mpnet-base-v2\
+models--intfloat--multilingual-e5-base\
 ├── snapshots\
 │   └── {hash}\
-│       ├── pytorch_model.bin  (~420MB)
+│       ├── pytorch_model.bin  (~1GB)
 │       ├── config.json
 │       ├── tokenizer_config.json
 │       └── ...
 ```
 
 ### **Model loads from cache on subsequent runs:**
-- First run: Downloads (~2-3 minutes for 420MB)
+- First run: Downloads (~3-5 minutes for 1GB)
 - Later runs: Loads instantly from cache
 
 ---
@@ -673,4 +673,4 @@ models--sentence-transformers--paraphrase-multilingual-mpnet-base-v2\
 
 - **FAISS Documentation:** https://github.com/facebookresearch/faiss
 - **Sentence Transformers:** https://www.sbert.net/
-- **Model Hub:** https://huggingface.co/sentence-transformers/paraphrase-multilingual-mpnet-base-v2
+- **Model Hub:** https://huggingface.co/intfloat/multilingual-e5-base

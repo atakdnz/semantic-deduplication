@@ -15,7 +15,7 @@ A high-performance semantic deduplication tool using sentence embeddings and FAI
 ## Current Configuration
 
 ### Default Settings
-- **Model:** `paraphrase-multilingual-mpnet-base-v2`
+- **Model:** `intfloat/multilingual-e5-base`
 - **Threshold:** 0.85 (configurable)
 - **Batch size:** 32 (optimal for most GPUs)
 - **Device:** Auto-detects CUDA/CPU
@@ -136,19 +136,19 @@ Running on: cpu     # CPU fallback
 
 ### Best to Good (tested):
 
-1. **`paraphrase-multilingual-mpnet-base-v2`** (Default) ⭐
-   - Size: ~420MB, 768-dim
-   - Speed: Medium
-   - Quality: Very Good
-   - Languages: 50+
-   - **Current default - best balance**
-
-2. **`intfloat/multilingual-e5-base`**
+1. **`intfloat/multilingual-e5-base`** (Default) ⭐
    - Size: ~1GB, 768-dim
-   - Speed: Medium (same as mpnet)
+   - Speed: Medium
    - Quality: Excellent
    - Languages: 100
-   - **Recommended upgrade**
+   - **Current default - best quality/versatility balance**
+
+2. **`paraphrase-multilingual-mpnet-base-v2`**
+   - Size: ~420MB, 768-dim
+   - Speed: Medium (same as e5-base)
+   - Quality: Very Good
+   - Languages: 50+
+   - **Good lighter alternative**
 
 3. **`intfloat/multilingual-e5-large`**
    - Size: ~2.5GB, 1024-dim

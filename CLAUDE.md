@@ -2,6 +2,16 @@
 
 All notable changes to the Semantic Deduplication Tool.
 
+## [1.2.0] - 2025-01-17
+
+### Changed
+- Default embedding model changed from `paraphrase-multilingual-mpnet-base-v2` to `intfloat/multilingual-e5-base`
+  - Better multilingual support (100 languages vs 50+)
+  - Improved quality for Turkish and other languages
+  - Excellent performance on multilingual benchmarks
+  - Same embedding dimension (768-dim)
+  - Slightly larger model size (~1GB vs ~420MB)
+
 ## [1.1.0] - 2025-01-10
 
 ### Added

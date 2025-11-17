@@ -97,7 +97,7 @@ MULTI-THRESHOLD MODE: Running with 3 thresholds
 Thresholds: 0.9, 0.85, 0.8
 ============================================================
 
-Loading embedding model: paraphrase-multilingual-mpnet-base-v2...
+Loading embedding model: intfloat/multilingual-e5-base...
 Model loaded successfully! Embedding dimension: 768
 Loading data from converted_data.json...
 Loaded 43894 records
@@ -262,8 +262,8 @@ python semantic_dedup.py data.json -t 0.87,0.85,0.83
 ### 2. Combine with Different Models
 ```bash
 # Compare model performance at different thresholds
-python semantic_dedup.py data.json -t 0.90,0.85,0.80 -m paraphrase-multilingual-mpnet-base-v2
 python semantic_dedup.py data.json -t 0.90,0.85,0.80 -m intfloat/multilingual-e5-base
+python semantic_dedup.py data.json -t 0.90,0.85,0.80 -m intfloat/multilingual-e5-large
 ```
 
 ### 3. Incremental Thresholds for Fine-Tuning

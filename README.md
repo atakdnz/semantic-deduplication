@@ -24,7 +24,7 @@ Basic usage:
 python semantic_dedup.py input.json -o output.json
 ```
 
-The first run will download the embedding model (~80MB). Subsequent runs will be faster.
+The first run will download the embedding model (~1GB). Subsequent runs will be faster.
 
 ## Usage Examples
 
@@ -82,7 +82,7 @@ optional arguments:
   -o, --output          Output file path (default: input_dedup.ext)
   -t, --threshold       Similarity threshold(s) for duplicates (0-1, default: 0.85)
                         Can be single value (0.85) or multiple comma-separated (0.85,0.80,0.90)
-  -m, --model          Sentence-transformer model name (default: paraphrase-multilingual-mpnet-base-v2)
+  -m, --model          Sentence-transformer model name (default: intfloat/multilingual-e5-base)
   -f, --format         Output format: json, jsonl, csv, tsv, parquet
 ```
 
@@ -107,26 +107,32 @@ optional arguments:
 
 ### Recommended for Turkish (Best to Good):
 
-1. **`paraphrase-multilingual-mpnet-base-v2`** (Default)
-   - Size: ~420MB, 768-dimensional embeddings
-   - Best balance of quality and speed for Turkish
-   - Supports 50+ languages including Turkish
+1. **`intfloat/multilingual-e5-base`** (Default)
+   - Size: ~1GB, 768-dimensional embeddings
+   - Excellent quality and multilingual support
+   - Supports 100 languages including Turkish
    - Fits easily in 6GB VRAM
    - **Recommended for most use cases**
 
-2. **`intfloat/multilingual-e5-large`**
+2. **`paraphrase-multilingual-mpnet-base-v2`**
+   - Size: ~420MB, 768-dimensional embeddings
+   - Good balance of quality and speed for Turkish
+   - Supports 50+ languages including Turkish
+   - Lighter alternative to e5-base
+
+3. **`intfloat/multilingual-e5-large`**
    - Size: ~2.5GB, 1024-dimensional embeddings
    - Higher quality multilingual embeddings
    - Excellent Turkish support
    - Still fits comfortably in 6GB VRAM
 
-3. **`emrecan/bert-base-turkish-cased-mean-nli-stsb-tr`**
+4. **`emrecan/bert-base-turkish-cased-mean-nli-stsb-tr`**
    - Size: ~500MB, 768-dimensional
    - Turkish-specific model
    - Trained on Turkish NLI and STS datasets
    - Good for Turkish-only datasets
 
-4. **`Trendyol/TY-ecomm-embed-multilingual-base-v1.2.0`**
+5. **`Trendyol/TY-ecomm-embed-multilingual-base-v1.2.0`**
    - Turkish e-commerce company's model
    - Optimized for Turkish + multilingual text
    - Good for product descriptions, reviews
@@ -155,8 +161,8 @@ FAISS indexing makes this tool scale efficiently:
 ## Example Output
 
 ```
-Loading embedding model: paraphrase-multilingual-mpnet-base-v2...
-First run will download the model (~420MB for mpnet, ~80MB for MiniLM)
+Loading embedding model: intfloat/multilingual-e5-base...
+First run will download the model (~1GB for e5-base, ~420MB for mpnet)
 Model will be cached for future use...
 Model loaded successfully! Embedding dimension: 768
 Loading data from data.json...

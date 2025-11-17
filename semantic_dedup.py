@@ -20,7 +20,7 @@ from tqdm import tqdm
 class SemanticDeduplicator:
     """Handles semantic deduplication using embeddings and FAISS"""
 
-    def __init__(self, model_name: str = 'paraphrase-multilingual-mpnet-base-v2', similarity_threshold: float = 0.85):
+    def __init__(self, model_name: str = 'intfloat/multilingual-e5-base', similarity_threshold: float = 0.85):
         """
         Initialize the deduplicator
 
@@ -29,7 +29,7 @@ class SemanticDeduplicator:
             similarity_threshold: Threshold for considering items as duplicates (0-1)
         """
         print(f"Loading embedding model: {model_name}...")
-        print("First run will download the model (~420MB for mpnet, ~80MB for MiniLM)")
+        print("First run will download the model (~1GB for e5-base, ~420MB for mpnet)")
         print("Model will be cached for future use...")
         self.model = SentenceTransformer(model_name)
         self.model_name = model_name
@@ -300,8 +300,8 @@ Examples:
   python semantic_dedup.py input.json -o output.csv -f csv
 
 Recommended models for Turkish:
-  paraphrase-multilingual-mpnet-base-v2 (default, best balance)
-  intfloat/multilingual-e5-base (best balance, 100 languages)
+  intfloat/multilingual-e5-base (default, excellent quality, 100 languages)
+  paraphrase-multilingual-mpnet-base-v2 (good balance, lighter)
   intfloat/multilingual-e5-large (higher quality, slower)
   emrecan/bert-base-turkish-cased-mean-nli-stsb-tr (Turkish-specific)
         """
@@ -311,8 +311,8 @@ Recommended models for Turkish:
     parser.add_argument('-o', '--output', help='Output file path (default: input_dedup.ext)')
     parser.add_argument('-t', '--threshold', type=str, default='0.85',
                        help='Similarity threshold(s) for duplicates. Single value (e.g., 0.85) or multiple comma-separated values (e.g., 0.85,0.80,0.90)')
-    parser.add_argument('-m', '--model', default='paraphrase-multilingual-mpnet-base-v2',
-                       help='Sentence-transformer model name (default: paraphrase-multilingual-mpnet-base-v2)')
+    parser.add_argument('-m', '--model', default='intfloat/multilingual-e5-base',
+                       help='Sentence-transformer model name (default: intfloat/multilingual-e5-base)')
     parser.add_argument('-f', '--format', choices=['json', 'jsonl', 'csv', 'tsv', 'parquet'],
                        help='Output format (default: same as input)')
 
